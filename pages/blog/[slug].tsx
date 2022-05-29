@@ -1,20 +1,16 @@
 import markdownToHtml from "../../utils/markdownToHtml"
 import { getAllPosts, getPostBySlug } from "../api/post"
 
-
-
 export default function BlogPost({post}) {
-
 return (
-
-    <div>
+  <div>
+    <h1>{post.title}</h1>
     <div
-   
-    dangerouslySetInnerHTML={{ __html: post.content }}
-  /></div>
+      dangerouslySetInnerHTML={{ __html: post.content }}
+    />
+  </div>
 )
 }
-
 
 export async function getStaticProps({ params }) {
     const post = getPostBySlug(params.slug, [
