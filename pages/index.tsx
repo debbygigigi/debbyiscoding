@@ -1,8 +1,8 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
-import Link from 'next/link'
-import styles from '../styles/Home.module.css'
+import type { NextPage } from 'next';
+import Head from 'next/head';
+import Image from 'next/image';
+import Link from 'next/link';
+import styles from '../styles/Home.module.css';
 
 const Home: NextPage = () => {
   return (
@@ -14,18 +14,14 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-         Hello
-        </h1>
+        <h1 className={styles.title}>Hello</h1>
 
         <div className={styles.grid}>
-        <Link href="/blog/preview">
-        <a  className={styles.card}>
-            <h2>Blog post: Preview</h2>
-</a>
-      </Link>
-          
-
+          <Link href="/blog/preview">
+            <a className={styles.card}>
+              <h2>Blog post: Preview</h2>
+            </a>
+          </Link>
         </div>
       </main>
 
@@ -42,7 +38,7 @@ const Home: NextPage = () => {
         </a>
       </footer>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
