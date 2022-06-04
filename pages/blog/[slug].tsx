@@ -1,7 +1,13 @@
+import React from 'react';
+import PostType from '../../types/post';
 import markdownToHtml from '../../utils/markdownToHtml';
 import { getAllPosts, getPostBySlug } from '../api/post';
 
-export default function BlogPost({ post }) {
+type Props = {
+  post: PostType;
+};
+
+export default function BlogPost({ post }: Props) {
   return (
     <div>
       <h1>{post.title}</h1>
@@ -10,7 +16,13 @@ export default function BlogPost({ post }) {
   );
 }
 
-export async function getStaticProps({ params }) {
+type Params = {
+  params: {
+    slug: string;
+  };
+};
+
+export async function getStaticProps({ params }: Params) {
   const post = getPostBySlug(params.slug, ['title', 'date', 'slug', 'author', 'content', 'ogImage', 'coverImage']);
   const content = await markdownToHtml(post.content || '');
 
