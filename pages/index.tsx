@@ -1,4 +1,3 @@
-import React from 'react';
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import Image from 'next/image';
@@ -16,7 +15,9 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>Hello</h1>
-
+        <div>
+          <Link href="/blog/preview">About Us</Link>
+        </div>
         <div className={styles.grid}>
           <Link href="/blog/preview">
             <a className={styles.card}>
