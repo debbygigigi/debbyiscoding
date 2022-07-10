@@ -15,13 +15,10 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>Hello</h1>
-        <div>
-          <Link href="/blog/preview">About Us</Link>
-        </div>
         <div className={styles.grid}>
-          <Link href="/blog/preview">
+          <Link href="/blog/why-choose-nextjs">
             <a className={styles.card}>
-              <h2>Blog post: Preview</h2>
+              <h2>Blog post: 從零開始架自己的部落格 - 為什麼選 Next.js 222</h2>
             </a>
           </Link>
         </div>
