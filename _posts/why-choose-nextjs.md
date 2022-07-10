@@ -1,10 +1,10 @@
 ---
-title: '從零開始架自己的部落格 - 為什麼選 Next.js'
+title: 'Build blog with me #1 - 為什麼選 Next.js'
 excerpt: '講到架自己的部落格，第一步就是思考要用什麼工具跟框架，這邊分享一下自己為什麼最後選用 Next.js 吧'
 coverImage:
   url: '/assets/blog/why-choose-nextjs/cover.jpeg'
   unsplashAuthor: 'Dayne Topkin'
-  unsplashAuthorLink: 'https://unsplash.com/@dtopkin1?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'
+  unsplashAuthorLink: 'https://unsplash.com/@dtopkin1'
 date: '2022-07-10T13:35:07.322Z'
 author:
   name: Debby Ji
@@ -12,9 +12,6 @@ author:
 ogImage:
   url: '/assets/blog/why-choose-nextjs/cover.jpeg'
 ---
-
-<img src="/assets/blog/why-choose-nextjs/cover.jpeg">
-Photo by <a href="https://unsplash.com/@dtopkin1?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Dayne Topkin</a> on <a href="https://unsplash.com/s/photos/start?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 講到架自己的部落格，第一步就是思考要用什麼工具跟框架，這邊分享一下自己為什麼最後選用 Next.js 吧：
 
